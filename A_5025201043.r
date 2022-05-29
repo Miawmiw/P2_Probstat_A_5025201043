@@ -66,7 +66,7 @@ head(myFile)
 attach(myFile)
 
 myFile$V1 <- as.factor(myFile$V1)
-myFile$V1 = factor(myFile$V1,labels = c("Kucing Oren","Kucing Hitam","Kucing Putih","Kucing Oren"))
+myFile$V1 = factor(myFile$V1,labels = c("Kucing Oren","Kucing Hitam","Kucing Putih"))
 
 class(myFile$V1)
 
